@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ShowMoviesActivity"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+    <Button
+            android:text="@string/show_all_movies_with_5_stars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnUpdate"
+            android:fontFamily="@font/lato_bold"
+            android:background="@drawable/login_button_bk"
+            app:backgroundTint="#00FFFFFF"
+            app:backgroundTintMode="src_over" />
+
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_marginTop="10dp" />
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="17dp"
+            app:cardElevation="0dp"
+            android:layout_marginTop="10dp">
+
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lv"
+                android:background="#FFFF99" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

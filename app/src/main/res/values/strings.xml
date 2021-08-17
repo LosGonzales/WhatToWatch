@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">What to Watch</string>
+    <string name="name">Name</string>
+    <string name="genre">Genre</string>
+    <string name="description">Description</string>
+    <string name="yyyy_mm_dd">yyyy-mm-dd</string>
+    <string name="stars">Stars</string>
+    <string name="insert">Insert</string>
+    <string name="show_list">Show List</string>
+    <string name="show_all_movies_with_5_stars">Show all Movies with 5 stars</string>
+    <string name="date">Date</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+</resources>
